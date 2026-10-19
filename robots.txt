@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://engman.thechels.uk/sitemap.xml
