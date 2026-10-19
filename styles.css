@@ -37,17 +37,19 @@ main{max-width:1180px;margin:0 auto;padding:0 1.25rem}
 .feature{background:rgba(255,255,255,.9);border-radius:20px;padding:1.4rem;box-shadow:0 6px 18px rgba(0,60,60,.12)}
 .feature .num{display:inline-block;font-weight:800;color:var(--t2);margin-bottom:.4rem}
 .feature p{margin-top:.5rem;color:var(--ink2)}
-.deck-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:1rem}
-.deck{--c:#0A84FF;position:relative;background:var(--c);color:#fff;border-radius:20px;padding:1.3rem;display:flex;flex-direction:column;gap:.7rem;box-shadow:0 8px 20px rgba(0,50,60,.18)}
+.deck-grid{display:grid;grid-template-columns:1fr;grid-auto-rows:1fr;gap:1.25rem}
+@media (min-width:720px){.deck-grid{grid-template-columns:repeat(2,1fr)}}
+.deck{--c:#0A84FF;position:relative;background:var(--c);color:#fff;border-radius:20px;padding:1.6rem;display:flex;flex-direction:column;gap:.8rem;box-shadow:0 8px 20px rgba(0,50,60,.18)}
 .deck.blue{--c:#0A84FF}.deck.green{--c:#30B454}.deck.pink{--c:#E02A58}.deck.brown{--c:#A98262}.deck.orange{--c:#E8851A}.deck.teal{--c:#00A3B8}.deck.red{--c:#E03C3C}.deck.indigo{--c:#5A5FE0}.deck.purple{--c:#B02CD8}.deck.cyan{--c:#1A93C9}
 .deck header{display:flex;justify-content:space-between;align-items:baseline;gap:.5rem}
 .deck .count{font-size:.85rem;opacity:.9}
-.deck-desc{font-size:.9rem;opacity:.92}
-.deck blockquote{margin:auto 0 0;background:#000;border-radius:14px;padding:1rem}
-.deck blockquote p{font-weight:700;font-size:1.02rem}
-.deck blockquote footer{margin-top:.5rem;font-size:.88rem;color:#cfcfcf}
+.deck-desc{font-size:.95rem;opacity:.92}
+.deck blockquote{margin:auto 0 0;background:rgba(255,255,255,.18);border-radius:14px;padding:1.1rem 1.2rem}
+.deck blockquote p{font-weight:700;font-size:1.15rem}
+.deck blockquote footer{margin-top:.5rem;font-size:.95rem;opacity:.92}
 .tier{align-self:flex-start;font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.25);padding:.2rem .6rem;border-radius:999px}
-.shot-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1.2rem}
+.shot-row{display:grid;grid-template-columns:repeat(2,1fr);gap:1.2rem}
+@media (min-width:900px){.shot-row{grid-template-columns:repeat(3,1fr)}}
 .shot{margin:0}
 .shot img{border-radius:22px;box-shadow:0 14px 30px rgba(0,40,50,.3);width:100%}
 .shot figcaption{margin-top:.7rem;font-size:.9rem}
