@@ -1,0 +1,56 @@
+# EngMan
+
+> EngMan is an iPhone app with 200 coaching cards for engineering managers: questions, prompts and frameworks for 1:1s, refinement, retros and stakeholder conversations.
+
+Available now on the App Store.
+
+Key facts:
+
+- Platform: iPhone, iOS 18.5 or later
+- Price: free with four decks; the other six decks unlock with an annual subscription (£3.99 a year) or lifetime access (£14.99 one-off)
+- Privacy: decks, favourites and your own cards live on the device and sync through the user's own iCloud; no account needed
+- Content: ten decks, 200 cards
+- Developer: Mat Benfield (thechelsuk), made in the UK
+
+## Links
+
+- [EngMan website](https://engman.thechels.uk/): the official marketing site
+- [App Store](https://apps.apple.com/gb/app/engman-em-coaching-cards/id6747295473): download the app
+- [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
+- [Project page](https://thechels.uk/projects/engman): background from the developer
+
+## Features
+
+- 200 coaching cards across ten decks
+- Swipe right to save favourites, left to dismiss
+- Favourites sync with iCloud
+- Write your own cards in a My Cards deck
+- Share a card as an image
+- Works offline
+
+## FAQ
+
+### What is EngMan?
+
+EngMan is a deck of 200 coaching cards for engineering managers: questions, prompts and frameworks for 1:1s, refinement, wellbeing, coaching, team building, performance, strategy and leadership.
+
+### Is EngMan free?
+
+Yes. Download it free and use the 1:1 Questions, Refinement, Wellbeing and Quotes decks. The other six decks unlock with an annual subscription at £3.99 a year, or lifetime access for £14.99.
+
+### Does it work offline?
+
+Yes. All the decks live on your phone, so it works with no signal. No account is needed.
+
+### Can I add my own questions?
+
+Yes. Write your own prompts in the My Cards deck, alongside the built-in decks.
+
+### Which devices are supported?
+
+iPhone running iOS 18.5 or later.
+
+## Optional
+
+- [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.engman): static HTML and CSS for this site
+- [More apps by thechelsuk](https://thechels.uk/projects): the developer's other apps and projects

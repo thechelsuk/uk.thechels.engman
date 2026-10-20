@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#1FC9BA">
     <meta name="apple-itunes-app" content="app-id=6747295473">
-    <meta name="description" content="200 coaching cards for engineering managers: prompts and frameworks for 1:1s, feedback, retros and stakeholders. Free decks to start, premium decks for Strategy, Leadership, Performance and Team Building. Works offline.">
+    <meta name="description" content="200 coaching cards for engineering managers: prompts and frameworks for 1:1s, feedback, retros and stakeholders. Free to start, and works offline.">
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://engman.thechels.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="EngMan">
+    <meta property="og:locale" content="en_GB">
     <meta property="og:url" content="https://engman.thechels.uk/">
     <meta property="og:title" content="EngMan: Coaching card decks for engineering managers">
     <meta property="og:description" content="200 coaching cards for engineering managers: prompts and frameworks for 1:1s, feedback, retros and stakeholders. Free decks to start, premium decks for Strategy, Leadership, Performance and Team Building. Works offline.">
@@ -28,22 +31,110 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "EngMan",
-        "alternateName": "EngMan: EM Coaching Cards",
-        "operatingSystem": "iOS 18.5 or later",
-        "applicationCategory": "BusinessApplication",
-        "url": "https://engman.thechels.uk/",
-        "image": "https://engman.thechels.uk/images/engman-icon.png",
-        "screenshot": "https://engman.thechels.uk/images/shot-02-browse.jpg",
-        "downloadUrl": "https://apps.apple.com/gb/app/engman-em-coaching-cards/id6747295473",
-        "description": "200 coaching cards for engineering managers: prompts and frameworks for 1:1s, feedback, retros and stakeholders. Free decks to start, premium decks for Strategy, Leadership, Performance and Team Building. Works offline.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "GBP",
-          "description": "Free to download. Optional annual subscription (£3.99 per year) or lifetime access (£14.99 one-off) unlocks every deck."
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://engman.thechels.uk/#website",
+            "url": "https://engman.thechels.uk/",
+            "name": "EngMan",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://engman.thechels.uk/#app",
+            "name": "EngMan",
+            "alternateName": "EngMan: EM Coaching Cards",
+            "operatingSystem": "iOS 18.5 or later",
+            "applicationCategory": "BusinessApplication",
+            "url": "https://engman.thechels.uk/",
+            "image": "https://engman.thechels.uk/images/engman-icon.png",
+            "screenshot": "https://engman.thechels.uk/images/shot-02-browse.jpg",
+            "downloadUrl": "https://apps.apple.com/gb/app/engman-em-coaching-cards/id6747295473",
+            "description": "200 coaching cards for engineering managers: prompts and frameworks for 1:1s, feedback, retros and stakeholders. Free decks to start, premium decks for Strategy, Leadership, Performance and Team Building. Works offline.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "GBP",
+              "description": "Free to download. Optional annual subscription (£3.99 per year) or lifetime access (£14.99 one-off) unlocks every deck."
+            },
+            "inLanguage": "en-GB",
+            "featureList": [
+              "200 coaching cards across ten decks",
+              "Swipe right to save favourites, left to dismiss",
+              "Favourites sync with iCloud",
+              "Write your own cards in a My Cards deck",
+              "Share a card as an image",
+              "Works offline"
+            ],
+            "author": {
+              "@id": "https://thechels.uk/#person"
+            },
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://engman.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "What is EngMan?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "EngMan is a deck of 200 coaching cards for engineering managers: questions, prompts and frameworks for 1:1s, refinement, wellbeing, coaching, team building, performance, strategy and leadership."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Is EngMan free?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Download it free and use the 1:1 Questions, Refinement, Wellbeing and Quotes decks. The other six decks unlock with an annual subscription at £3.99 a year, or lifetime access for £14.99."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does it work offline?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. All the decks live on your phone, so it works with no signal. No account is needed."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can I add my own questions?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Write your own prompts in the My Cards deck, alongside the built-in decks."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Which devices are supported?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "iPhone running iOS 18.5 or later."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -135,6 +226,35 @@
           <h2 id="privacy-title">Your notes stay <em>yours</em></h2>
           <p>Decks, favourites and your own cards live on your device, and sync through your own iCloud. Read how little we collect in the privacy policy.</p>
           <a class="text-link" href="https://thechels.uk/app/privacy">Read our privacy policy <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="faq section-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-intro">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>What is EngMan?</summary>
+            <p>EngMan is a deck of 200 coaching cards for engineering managers: questions, prompts and frameworks for 1:1s, refinement, wellbeing, coaching, team building, performance, strategy and leadership.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is EngMan free?</summary>
+            <p>Yes. Download it free and use the 1:1 Questions, Refinement, Wellbeing and Quotes decks. The other six decks unlock with an annual subscription at £3.99 a year, or lifetime access for £14.99.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does it work offline?</summary>
+            <p>Yes. All the decks live on your phone, so it works with no signal. No account is needed.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I add my own questions?</summary>
+            <p>Yes. Write your own prompts in the My Cards deck, alongside the built-in decks.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which devices are supported?</summary>
+            <p>iPhone running iOS 18.5 or later.</p>
+          </details>
         </div>
       </section>
 
