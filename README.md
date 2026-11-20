@@ -53,6 +53,6 @@ No account needed. Read the [privacy policy](https://thechels.uk/app/privacy).
 
 ## Requirements
 
-- iPhone with iOS 18.5 or later
+- iPhone with iOS 18.6 or later
 
 More about EngMan: [thechels.uk/projects/engman](https://thechels.uk/projects/engman).

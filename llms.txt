@@ -6,7 +6,7 @@ Available now on the App Store.
 
 Key facts:
 
-- Platform: iPhone, iOS 18.5 or later
+- Platform: iPhone, iOS 18.6 or later
 - Price: free with four decks; the other six decks unlock with an annual subscription (£3.99 a year) or lifetime access (£14.99 one-off)
 - Privacy: decks, favourites and your own cards live on the device and sync through the user's own iCloud; no account needed
 - Content: ten decks, 200 cards
@@ -48,7 +48,7 @@ Yes. Write your own prompts in the My Cards deck, alongside the built-in decks.
 
 ### Which devices are supported?
 
-iPhone running iOS 18.5 or later.
+iPhone running iOS 18.6 or later.
 
 ### Found a bug or have an idea?
 
