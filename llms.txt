@@ -15,7 +15,7 @@ Key facts:
 ## Links
 
 - [EngMan website](https://engman.thechels.uk/): the official marketing site
-- [App Store](https://apps.apple.com/gb/app/engman-em-coaching-cards/id6747295473): download the app
+- [App Store](https://apps.apple.com/gb/app/engman-em-coaching-cards/id6747295473?pt=127889770&ct=marketing&mt=8): download the app
 - [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
 - [Project page](https://thechels.uk/projects/engman): background from the developer
 
